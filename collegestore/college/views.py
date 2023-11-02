@@ -4,8 +4,8 @@ from django.shortcuts import render, redirect
 
 
 # Create your views here.
-def home(request):
-    return render(request,"Home.html")
+# def home(request):
+#     return render(request,"Home.html")
 def login(request):
     if request.method=='POST':
         username=request.POST['username']
